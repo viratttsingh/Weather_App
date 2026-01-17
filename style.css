@@ -1,0 +1,104 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Exo 2', sans-serif;
+}
+
+.container {
+  width: 100%;
+}
+
+#heading {
+  text-align: center;
+  padding: 1.5rem;
+  border: 5px solid black;
+  background-color: rgb(255, 49, 49);
+  font-size: 1.4rem;
+}
+
+#entry {
+  text-align: center;
+  padding: 1.5rem;
+  border: 5px solid black;
+  background-color: rgb(224, 176, 255);
+  margin: 1rem 10rem;
+}
+
+#bharo1 {
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+#city {
+  border: 3px solid black;
+  width: 50%;
+  font-size: x-large;
+}
+
+#submit1 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.5rem 1.2rem;
+  background-color: rgb(224, 176, 255);
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+#submit1:hover {
+  background-color: rgb(89, 84, 84);
+  color: white;
+}
+
+#results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  border: 5px solid black;
+  margin: 0 10rem;
+  background-color: #FAA0A0;
+}
+
+#output1,
+#output2 {
+  width: 50rem;
+  border: 2px solid black;
+  font-size: 2rem;
+  padding: 1rem;
+  background-color: #FDDA0D;
+}
+
+#output2 {
+  background-color: #7CFC00;
+}
+
+#loc,
+#tem {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+@media (max-width: 1330px) {
+  #entry,
+  #results {
+    margin: 1rem;
+    width: 95%;
+  }
+
+  #output1,
+  #output2 {
+    width: 30rem;
+  }
+
+  #city {
+    width: 80%;
+  }
+}

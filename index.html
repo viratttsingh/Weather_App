@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather Forecast</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+
+    <div id="heading">
+      <h1>Know the Weather of your City...</h1>
+    </div>
+
+    <div id="entry">
+      <form id="myForm">
+        <p id="bharo1">Enter the City.</p>
+        <input type="text" id="city" name="city" />
+        <br />
+        <button id="submit1" type="submit">Submit</button>
+      </form>
+    </div>
+
+    <div id="results">
+      <div>
+        <h1 id="loc">Location</h1>
+        <pre id="output1">
+Country
+City
+Time
+Date
+Latitude
+Longitude
+Time Zone
+        </pre>
+      </div>
+
+      <div>
+        <h1 id="tem">Weather Reports</h1>
+        <pre id="output2">
+Sky Condition
+Temperature
+Wind Direction
+Speed
+Day/Night
+UV Index Value
+        </pre>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
